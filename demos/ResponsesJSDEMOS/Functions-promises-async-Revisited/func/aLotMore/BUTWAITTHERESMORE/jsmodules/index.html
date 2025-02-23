@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Modules</h1>
+
+<p id="demo"></p>
+
+<script type="module" src="message.mjs">
+
+</script>
+<script>
+    let par = document.createElement("p")
+par.id = "parId"
+
+document.body.appendChild(par)
+
+par.append("New")
+
+
+let div = document.createElement("div")
+
+document.body.appendChild(div)
+div.append("ello world")
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+
+
+:root { 
+    --grad1 : radial-gradient(rgb(228, 92, 255), rgb(204, 97, 97),rgb(238, 85, 85),rgb(231, 162, 32), rgb(235, 186, 51), rgb(152, 189, 82),rgb(112, 216, 91),gray,rgb(42, 167, 160),rgb(55, 151, 241),rgb(84, 130, 231),rgb(139, 180, 196), rgb(75, 110, 226), rgb(40, 40, 245));
+
+
+    --grad2 : radial-gradient(rgb(228, 92, 255), rgb(204, 97, 97),rgb(238, 85, 85),rgb(231, 162, 32), rgb(212, 169, 48), rgb(152, 189, 82),rgb(103, 194, 84),rgb(75, 185, 125),rgb(63, 190, 184),rgb(55, 151, 241),rgb(84, 130, 231),rgb(139, 180, 196), rgb(75, 110, 226), rgb(40, 40, 245));
+
+
+}
+
+
+
+#main { 
+    border:inset 5px dotted blue 
+}
+.startMain{ 
+    background: var(--grad2);
+    border: 5px solid black;
+    
+    border-radius: 0%;; 
+
+
+margin-top: -30px;
+
+}
+.progress-bar { 
+    border: 1px solid black
+}
+.progress { 
+    text-shadow: 2px .5px 2px whitesmoke;
+}
+
+
+.portfolio-wrap { 
+    box-shadow: 2px 2px 20px .5px whitesmoke;
+}
+
+
+
+.contact { 
+    background-image: url(/assets/img/chip1.jpg); 
+    background-repeat: no-repeat; 
+    min-height: fit-content;
+}
+
+/*  */
+
+
+
+
+.certs{ 
+    max-width: 30%;
+}
+
+
+
+.img-fluid{
+    border : 3px black solid;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Angular Fetch Example</title>
+    <!-- Angular CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <!-- Your JavaScript file -->
+
+
+</head>
+<body ng-controller="myController">
+
+    <header> 
+    <h1>    Angular Fetch Example</h1>
+    </header>
+
+    <h1>Users from ReqRes.in (Page 2)</h1>
+
+    <button ng-click="fetchData()">Fetch Users</button>
+
+
+
+
+<p id="firstPar" > </p>
+<!-- 
+<div id="container1">
+<button onclick="changePath()" >Change  Path </button>
+<input type="text" id="input"  >
+</div> -->
+
+
+<h3> The path is  {{ path }}</h3>
+
+
+    <div ng-if="users.length > 0">
+        <h2>User List:</h2>
+        <ul>
+            <li ng-repeat="user in users">
+                <strong>{{ user.first_name }} {{ user.last_name }}</strong>
+                <br>
+                Email: {{ user.email }}
+                <br>
+                <img ng-src="{{ user.avatar }}" alt="{{ user.first_name }}'s Avatar">
+            </li>
+        </ul>
+    </div>
+    <div ng-if="error">
+      <p style = "color : red ;"> Error fetching the data: {{ error }} </p>
+    </div>
+</body>
+
+<script src="app.js" ></script>
+</html>
+
+<script src="pathFinder.js" ></script>
