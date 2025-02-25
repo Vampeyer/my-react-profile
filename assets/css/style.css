@@ -317,8 +317,9 @@ section {
 
 }
 
-.section-title {
+.section-title > p {
   padding-bottom: 30px;
+  text-shadow: white  1px  .5px 1px;
 }
 
 .section-title h2 {
