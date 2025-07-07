@@ -17,7 +17,7 @@ loadingText.style.color = "black"
             loadingScreen.style.display = 'none';
             content.style.display = 'block';
                      loadingScreen.style.color = "black"
-        },500 ); // Adjust the delay before showing content if needed
+        },250 ); // Adjust the delay before showing content if needed
 
-    }, 750); // Simulate 2 seconds of loading
+    }, 200); // Simulate 2 seconds of loading
 });
