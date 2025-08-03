@@ -5,7 +5,7 @@
     --grad1 : radial-gradient(rgb(228, 92, 255), rgb(204, 97, 97),white  , white,white , rgb(238, 85, 85),rgb(231, 162, 32), rgb(235, 186, 51), rgb(152, 189, 82),rgb(112, 216, 91),gray,rgb(42, 167, 160),rgb(55, 151, 241),rgb(84, 130, 231),rgb(139, 180, 196), rgb(75, 110, 226), rgb(40, 40, 245), black);
 
 
-    --grad2 : radial-gradient(white  , white,white ,rgb(238, 85, 85),rgb(231, 162, 32), rgb(212, 169, 48),white  , white,white, rgb(152, 189, 82),white,rgb(63, 190, 184),rgb(55, 151, 241),rgb(84, 130, 231),rgb(139, 180, 196),white  , white, rgb(75, 110, 226), rgb(40, 40, 245));
+    --grad2 : radial-gradient(rgb(226, 161, 226) , white , rgb(224, 147, 147) , rgb(139, 139, 218) );
 
 
 }
