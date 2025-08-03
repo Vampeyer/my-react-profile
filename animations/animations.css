@@ -10,7 +10,8 @@
 #mantable { 
     width:20vh;
 margin-left: 30%;
-margin-bottom: -35px;
+margin-top: 100px;
+
 /* transform: rotateZ(360deg); */
 
     transition-delay: 2s;
