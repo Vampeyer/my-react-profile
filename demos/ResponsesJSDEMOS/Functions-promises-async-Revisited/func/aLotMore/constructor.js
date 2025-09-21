@@ -1,8 +1,0 @@
-
-
-
-
-
-
-let effy = new Function()
-

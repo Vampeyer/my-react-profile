@@ -1,0 +1,69 @@
+
+.navv{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    animation: yellowOrangeTransition 3s infinite;
+}
+
+
+
+
+.green{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    animation: greenBlueTransition 3s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes greenBlueTransition {
+    0% {
+        text-shadow: 
+            0 0 10px #00ff88,
+            0 0 20px #00ff88,
+            0 0 30px #00ff88;
+    }
+    50% {
+        text-shadow: 
+            0 0 10px #00aaff,
+            0  -20px #00aaff,
+            0 -10px 30px #00aaff;
+    }
+    100% {
+        text-shadow: 
+            0 0 10px #00ff88,
+            0 0 20px #00ff88,
+            0 0 30px #00ff88;
+    }
+}
+
+
+@keyframes yellowOrangeTransition {
+    0% {
+        text-shadow: 
+            0 0 10px #ffff00,
+            0 0 20px #ffff008a,
+            0 0 10px #ffff0036;
+    }
+    50% {
+        text-shadow: 
+            0 0 10px #ff8800,
+            0 0 20px #ff880088,
+            0 0 10px #ff88003d;
+    }
+    100% {
+        text-shadow: 
+            0 0 10px #ffff00,
+            0 0 20px #ffff007e,
+            0 0 10px #ffff0034;
+    }
+}
