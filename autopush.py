@@ -14,7 +14,7 @@ def main():
     run_git_command(['git', 'add', '.'])
     
     # Commit changes with message 'autopush'
-    run_git_command(['git', 'commit', '-m', 'autopush'])
+    run_git_command(['git', 'commit', '-m', 'autopush3'])
     
     # Push changes to the remote repository
     run_git_command(['git', 'push'])
