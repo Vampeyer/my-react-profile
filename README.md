@@ -1,5 +1,5 @@
 
-# React + Vite - by Vampeyer 
+# React + Vite Profile - by Vampeyer 
 
 This react template includes fixes in the vite.config.js
 for bundling , and dist , production linking ,   
