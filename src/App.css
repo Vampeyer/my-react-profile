@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-   background: linear-gradient(45deg, #6b48ff, #00ddeb, purple, #6b48ff);
+   background: linear-gradient(45deg, darkgreen, #6b48ff,  darkgreen, rgb(4, 178, 221), #6b48ff);
   background-size: 200% 200%;
   animation: gradientFade 10s ease infinite;
   min-height: 100vh;
@@ -55,14 +55,17 @@ text-shadow: 2px  2px  2px rgb(255, 255, 255);
 .card {
   transition: transform 0.3s;
   background-color: rgba(255, 255, 255, 0.95);
+
 }
 
 .card:hover {
   transform: translateY(-15px);
   background: linear-gradient(90deg, #082d72, rgb(7, 128, 117), hsl(194, 64%, 31%), blue);
-  animation: gradientFade2 8s ease infinite;
+
   min-height: 4vh;
-  background-size: 300% 400%;
+  background-size: 200% 200%;
+  animation: gradientFade2 8s ease infinite;
+
   color: aliceblue;
 }
 
@@ -97,8 +100,15 @@ text-shadow: 2px  2px  2px rgb(255, 255, 255);
   flex: 1 1 300px;
   min-width: 150px;
   padding: 15px;
-  background: #6f42c1;
+  
   color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.flex-item-small2 {
+  flex: 1 1 1f00px;
+  color: rgb(0, 0, 0);
   border-radius: 6px;
   text-align: center;
 }
@@ -112,16 +122,34 @@ text-shadow: 2px  2px  2px rgb(255, 255, 255);
 }
 
 /* Image styling start */
+/* and home page animation */
+
 
 .myimage{
-  position: fixed;
-  top: 120px;
-  right: 100px;
-  width: 10%;
+  position: relative;
+  bottom: 80px;
+  left: 40%;
+  width: 10em;
   border-radius: 40%;
   animation:glow-pulse 2s alternate-reverse infinite;
   padding-top: -20px;
+  margin-bottom: -200px;
+  z-index: 3;
 }
+
+
+@media screen and (max-width: 756px) {
+  .myimage{
+    position: relative;
+    left: 20%;
+    bottom:20%;
+    margin-top: 15%;
+    margin-bottom: -50px;
+    
+}
+}
+
+
 
 @keyframes glow-pulse {
   0% {
@@ -144,7 +172,7 @@ text-shadow: 2px  2px  2px rgb(255, 255, 255);
 
 
 
-/* Image styling stop */
+/* Image and animation styling stop */
 
 
 footer{

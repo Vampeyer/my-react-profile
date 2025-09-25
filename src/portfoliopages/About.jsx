@@ -6,6 +6,7 @@ const About = () => (
     <div className="card p-4 mx-auto shadow-sm" style={{ maxWidth: '24rem' }}>
       <h4>About {whoami}</h4>
       <p>Experienced developer with a love for creating efficient, scalable web solutions.</p>
+      <p>From Louisville Ky.</p>
     </div>
   </section>
 );

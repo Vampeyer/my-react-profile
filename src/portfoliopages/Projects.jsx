@@ -24,9 +24,7 @@ export const projects = [
 
 const Projects = () => (
   <>
-    <section id="portfolio" className="section text-center py-5">
-
-
+    <section  className="section text-center py-5">
       <h2 className="mb-4 font1">Projects</h2>
       <div className="d-flex flex-wrap justify-content-center gap-3">
         {projects.map((project) => 

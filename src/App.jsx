@@ -3,22 +3,38 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './animations.css'
+import './animationspin.css'
+
 
 export const whoami = "Jacob Thompson";
 
 import Navbar from './portfoliopages/Navbar';
 import myimage from '/metech1.jpg'
 
+import animationGear from '/animated-images/gear-icon-png.png'
+import manandpc from '/animated-images/man-table.png'
+
 const Home = () => (
+  <>
   <section id="/" className="section text-center py-5">
-    <h2 className="mb-4 font1">Welcome</h2>
-    <div className="card p-4 mx-auto shadow-sm" style={{ maxWidth: '24rem' }}>
-      <p>Welcome to {whoami}'s portfolio. Explore my profile, projects, and contact info.</p>
+    <h2 className="  mb-4 font1"  >Welcome</h2>
+    <div className="p-4 mx-auto shadow-sm card " style={{ maxWidth: '24rem', zIndex:5 }}>
+      <p>Welcome to {whoami}'s portfolio. Please explore my profile, projects, and contact info.</p>
     </div>
 
 <img className='myimage' src={myimage} alt=" Enhanced Picture of me" />
 
+<div className='animationContainer'>
+
+<div> <img className='manandpc'  src={manandpc} alt="" /></div>
+
+<img className='animationGear1' src={animationGear} alt="" />
+<img className='animationGear2' src={animationGear} alt="" />
+<img className='animationGear3' src={animationGear} alt="" />
+</div>
+
   </section>
+  </>
 );
 //    Profile imports 
 import Profile from './portfoliopages/profile';
@@ -27,6 +43,7 @@ import  Skills from './portfoliopages/Skills';
 import Projects from './portfoliopages/Projects';
 import Contact from './portfoliopages/Contact';
 import About from './portfoliopages/About';
+import Services from './portfoliopages/Services';
 import Footer from './portfoliopages/Footer';
 
 
@@ -70,6 +87,8 @@ const App = () => {
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+
       <Route path="/project/1" element={<Project1 />} />
       <Route path="/project/2" element={<Project2 />} />
       <Route path="/project/3" element={<Project3 />} />

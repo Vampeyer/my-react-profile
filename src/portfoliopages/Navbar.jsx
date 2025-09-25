@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
     <>
-    <nav className="navbar  navbar-dark bg-dark nav-container ">
+    <nav className="navbar  navbar-dark bg-dark  ">
       <div className="container-fluid">
      <h6 className='font1'> <NavLink className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}  to="/profile">
       Welcome to Jacobs Profile
@@ -42,6 +42,13 @@ const Navbar = () => (
               <NavLink className={({ isActive }) => `navv ${isActive ? 'green' : ''}`} 
               to="/about">About</NavLink>
             </li>
+
+
+            <li className="nav-item">
+              <NavLink className={({ isActive }) => `navv ${isActive ? 'green' : ''}`} 
+              to="/services">Services</NavLink>
+            </li>
+
           </ul>
         </div>
       </div>

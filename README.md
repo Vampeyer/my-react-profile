@@ -5,13 +5,7 @@ This react template includes fixes in the vite.config.js
 for bundling , and dist , production linking ,   
 
 and PWA capability - onstart . 
-Paths in this project are tuned for static hosting. 
---------------------------------------------
 
-To spin up , just pull the repo , and run , 
-npm install - too install node dependencies ,  
-npm run dev , too run development server and 
-npm run build , too build in a dist directory. 
 --------------------------------------------
 
 # To update my profiles , I should 

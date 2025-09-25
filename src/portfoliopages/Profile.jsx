@@ -9,7 +9,7 @@ const Profile = () => (
 
   
 <div className="flexing"> 
-    <section id="profile" className="section text-center py-5">
+    <section id="profile" className="section text-center ">
       <h2 className="mb-4 font1">Profile</h2>
 
 

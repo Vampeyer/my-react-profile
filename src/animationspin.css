@@ -1,0 +1,63 @@
+.animationContainer{
+
+    width: 70%;
+    position:relative;
+    right: 20%;
+    top:10%;
+    margin-top: -150px;
+  }
+  
+  .animationGear1{
+    animation: delayedSpin 5s infinite;
+    width: 10%;
+   
+  }
+
+  .animationGear2{
+    animation: delayedSpinreverse 5s infinite;
+    width: 10%;
+    margin-left: -12px;
+    margin-top: 15px;
+  }
+
+  .animationGear3{
+    animation: delayedSpin 5s infinite;
+    width: 10%;
+    margin-left: -12px;
+    margin-top: -7px;
+  }
+
+
+.manandpc{
+    width:20%;
+    animation: littleTurn 2.5s infinite alternate;
+}
+
+@keyframes littleTurn {
+    0%, 30% {
+        transform: rotate(-80deg);
+    }
+    50%{  transform: rotate(-120deg); }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+
+
+  @keyframes delayedSpin {
+    0%, 30% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+  }
+
+  @keyframes delayedSpinreverse {
+    0%, 30% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
